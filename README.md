@@ -3,6 +3,8 @@ This extension simulates new virtual desktop fullscreen in macos.
 
 It's en equivalent to full screen in Safari.
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/s0gqUqoCGUM/0.jpg)](https://www.youtube.com/watch?v=s0gqUqoCGUM)
+
 # Installation 
 
 1. Download this repozitory as zip
