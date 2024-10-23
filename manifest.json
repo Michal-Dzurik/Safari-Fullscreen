@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Safari fullscreen",
+  "description": "This extension simulates new virtual desktop fullscreen in macos. It's en equivalent to full screen in Safari.",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting", "windows", "storage"],
+  "action": {
+    "default_popup": "switch.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
